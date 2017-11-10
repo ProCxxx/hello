@@ -1,3 +1,4 @@
+//import RNExitApp from 'react-native-exit-app-no-history';
 var ready=false;
 var app = {
     // Application Constructor
@@ -15,10 +16,17 @@ var app = {
     receivedEvent: function(id) {
         ready=true;
 		document.getElementById('exit').addEventListener('click', exit);
+		document.getElementById("pin").addEventListener('click' , pin);
     }
 };
 
 app.initialize();
+
 function exit(e){
-	navigator.app.exitApp(0);
+	navigator.app.exitApp();
+	RNExitApp.exitApp();
+}
+
+function pin(e){
+	alert(e.value;)
 }
