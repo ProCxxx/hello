@@ -6,3 +6,112 @@
 body {
     background-color:#A7A7A7;
 }
+#pin {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+#pin-title {
+	position: relative;
+	left: 0;
+	top: 5vh;
+	width: 100vw;
+	height: 10vh;
+	font-size: 10vh;
+}
+#dot1{
+	position: fixed;
+	top: 20vh;
+	left: 20vw;
+	border:5px solid black;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+#dot2{
+	position: fixed;
+	top: 20vh;
+	left: 38vw;
+	border:5px solid black;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+#dot3{
+	position: fixed;
+	top: 20vh;
+	right: 38vw;
+	border:5px solid black;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+#dot4{
+	position: fixed;
+	top: 20vh;
+	right: 20vw;
+	border:5px solid black;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+#pin-btn{
+	position: fixed;
+	width: 15vw;
+	height: 10vh;
+	border: 1px solid black;
+	border-radius: 1000px;
+	font-size 2em;
+	background-color: white;
+	color:black;
+}
+.pin-btn-1{
+	left: 20vw;
+	top: 30vh;
+}
+.pin-btn-2{
+	left: 42.5vw;
+	top:30vh;
+}
+.pin-btn-3{
+	right: 20vw;
+	top: 30vh;
+}
+.pin-btn-4{
+	left: 20vw;
+	top: 45vh;
+}
+.pin-btn-5{
+	left: 42.5vw;
+	top: 45vh;
+}
+.pin-btn-6{
+	right: 20vw;
+	top: 45vh;
+}
+.pin-btn-7{
+	left: 20vw;
+	top: 60vh;
+}
+.pin-btn-8{
+	left: 42.5vw;
+	top: 60vh;
+}
+.pin-btn-9{
+	right: 20vw;
+	top: 60vh;
+}
+#exit {
+	position: fixed;
+	left: 10vw;
+	top: 85vh;
+	width: 80vw;
+	height: 10vh;
+}

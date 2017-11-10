@@ -17,7 +17,7 @@
     "cordova.custom.plugins.exitapp": "~1.0.0",
     "link": "^0.1.5",
     "react-native": "^0.50.3",
-    "react-native-exit-app-no-history": "^1.0.2"
+    "react-native-exit-app-no-history": "file:node_modules/react-native-exit-app-no-history"
   },
   "cordova": {
     "plugins": {
