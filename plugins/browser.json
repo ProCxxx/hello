@@ -9,9 +9,6 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.cordova.proxy.hello"
-    },
-    "cordova.custom.plugins.exitapp": {
-      "PACKAGE_NAME": "com.cordova.proxy.hello"
     }
   },
   "dependent_plugins": {}

@@ -10,7 +10,7 @@
   "cordova.custom.plugins.exitapp": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-exitapp"
+      "id": "cordova-plugin-exitapp@^1.0.0"
     },
     "is_top_level": true,
     "variables": {}
